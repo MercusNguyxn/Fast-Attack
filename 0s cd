@@ -1,0 +1,4 @@
+local old; old = hookfunction(wait, function(t)
+   t = 0;
+   return old(t);
+end);
